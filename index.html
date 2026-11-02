@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | IT Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio<span>.</span></h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>IT Developer</span></h1>
+            <h2>Web Developer & IT Infrastructure</h2>
+            <p>
+                I build websites, manage servers, networks,
+                and develop practical IT solutions.
+            </p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p class="section-text">
+            I am passionate about technology, web development,
+            networking, Linux servers, Docker and automation.
+            I enjoy learning new technologies and building
+            useful solutions.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Linux Server</div>
+            <div class="skill">Docker</div>
+            <div class="skill">Networking</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal website built with HTML, CSS and JavaScript.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Docker Infrastructure</h3>
+                <p>Deploying and managing applications using Docker.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Network Monitoring</h3>
+                <p>Monitoring servers and network devices with Zabbix.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p class="section-text">
+            Interested in working together? Feel free to contact me.
+        </p>
+
+        <a href="mailto:your-email@example.com" class="btn">
+            Send Email
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
